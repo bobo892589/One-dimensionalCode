@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3B2FC491647A08E00E0AC69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2FC481647A08E00E0AC69 /* UIKit.framework */; };
+		C3B2FC4B1647A08E00E0AC69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2FC4A1647A08E00E0AC69 /* Foundation.framework */; };
+		C3B2FC4D1647A08E00E0AC69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2FC4C1647A08E00E0AC69 /* CoreGraphics.framework */; };
+		C3B2FC531647A08E00E0AC69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3B2FC511647A08E00E0AC69 /* InfoPlist.strings */; };
+		C3B2FC551647A08E00E0AC69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B2FC541647A08E00E0AC69 /* main.m */; };
+		C3B2FC591647A08F00E0AC69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B2FC581647A08F00E0AC69 /* AppDelegate.m */; };
+		C3B2FC5B1647A08F00E0AC69 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B2FC5A1647A08F00E0AC69 /* Default.png */; };
+		C3B2FC5D1647A08F00E0AC69 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B2FC5C1647A08F00E0AC69 /* Default@2x.png */; };
+		C3B2FC5F1647A08F00E0AC69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B2FC5E1647A08F00E0AC69 /* Default-568h@2x.png */; };
+		C3B2FC621647A08F00E0AC69 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B2FC601647A08F00E0AC69 /* MainStoryboard.storyboard */; };
+		C3B2FC651647A08F00E0AC69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B2FC641647A08F00E0AC69 /* ViewController.m */; };
+		C3B2FC6D1647A09000E0AC69 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2FC6C1647A09000E0AC69 /* SenTestingKit.framework */; };
+		C3B2FC6E1647A09000E0AC69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2FC481647A08E00E0AC69 /* UIKit.framework */; };
+		C3B2FC6F1647A09000E0AC69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2FC4A1647A08E00E0AC69 /* Foundation.framework */; };
+		C3B2FC771647A09000E0AC69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3B2FC751647A09000E0AC69 /* InfoPlist.strings */; };
+		C3B2FC7A1647A09000E0AC69 /* One_dimensionalCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B2FC791647A09000E0AC69 /* One_dimensionalCodeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3B2FC701647A09000E0AC69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B2FC3B1647A08E00E0AC69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B2FC431647A08E00E0AC69;
+			remoteInfo = "One-dimensionalCode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3B2FC441647A08E00E0AC69 /* One-dimensionalCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One-dimensionalCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B2FC481647A08E00E0AC69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3B2FC4A1647A08E00E0AC69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3B2FC4C1647A08E00E0AC69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3B2FC501647A08E00E0AC69 /* One-dimensionalCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "One-dimensionalCode-Info.plist"; sourceTree = "<group>"; };
+		C3B2FC521647A08E00E0AC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3B2FC541647A08E00E0AC69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3B2FC561647A08F00E0AC69 /* One-dimensionalCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "One-dimensionalCode-Prefix.pch"; sourceTree = "<group>"; };
+		C3B2FC571647A08F00E0AC69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3B2FC581647A08F00E0AC69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3B2FC5A1647A08F00E0AC69 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3B2FC5C1647A08F00E0AC69 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3B2FC5E1647A08F00E0AC69 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3B2FC611647A08F00E0AC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C3B2FC631647A08F00E0AC69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3B2FC641647A08F00E0AC69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3B2FC6B1647A09000E0AC69 /* One-dimensionalCodeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One-dimensionalCodeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B2FC6C1647A09000E0AC69 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3B2FC741647A09000E0AC69 /* One-dimensionalCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "One-dimensionalCodeTests-Info.plist"; sourceTree = "<group>"; };
+		C3B2FC761647A09000E0AC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3B2FC781647A09000E0AC69 /* One_dimensionalCodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = One_dimensionalCodeTests.h; sourceTree = "<group>"; };
+		C3B2FC791647A09000E0AC69 /* One_dimensionalCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = One_dimensionalCodeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B2FC411647A08E00E0AC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B2FC491647A08E00E0AC69 /* UIKit.framework in Frameworks */,
+				C3B2FC4B1647A08E00E0AC69 /* Foundation.framework in Frameworks */,
+				C3B2FC4D1647A08E00E0AC69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B2FC671647A09000E0AC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B2FC6D1647A09000E0AC69 /* SenTestingKit.framework in Frameworks */,
+				C3B2FC6E1647A09000E0AC69 /* UIKit.framework in Frameworks */,
+				C3B2FC6F1647A09000E0AC69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3B2FC391647A08E00E0AC69 = {
+			isa = PBXGroup;
+			children = (
+				C3B2FC4E1647A08E00E0AC69 /* One-dimensionalCode */,
+				C3B2FC721647A09000E0AC69 /* One-dimensionalCodeTests */,
+				C3B2FC471647A08E00E0AC69 /* Frameworks */,
+				C3B2FC451647A08E00E0AC69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B2FC451647A08E00E0AC69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2FC441647A08E00E0AC69 /* One-dimensionalCode.app */,
+				C3B2FC6B1647A09000E0AC69 /* One-dimensionalCodeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B2FC471647A08E00E0AC69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2FC481647A08E00E0AC69 /* UIKit.framework */,
+				C3B2FC4A1647A08E00E0AC69 /* Foundation.framework */,
+				C3B2FC4C1647A08E00E0AC69 /* CoreGraphics.framework */,
+				C3B2FC6C1647A09000E0AC69 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B2FC4E1647A08E00E0AC69 /* One-dimensionalCode */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2FC571647A08F00E0AC69 /* AppDelegate.h */,
+				C3B2FC581647A08F00E0AC69 /* AppDelegate.m */,
+				C3B2FC601647A08F00E0AC69 /* MainStoryboard.storyboard */,
+				C3B2FC631647A08F00E0AC69 /* ViewController.h */,
+				C3B2FC641647A08F00E0AC69 /* ViewController.m */,
+				C3B2FC4F1647A08E00E0AC69 /* Supporting Files */,
+			);
+			path = "One-dimensionalCode";
+			sourceTree = "<group>";
+		};
+		C3B2FC4F1647A08E00E0AC69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2FC501647A08E00E0AC69 /* One-dimensionalCode-Info.plist */,
+				C3B2FC511647A08E00E0AC69 /* InfoPlist.strings */,
+				C3B2FC541647A08E00E0AC69 /* main.m */,
+				C3B2FC561647A08F00E0AC69 /* One-dimensionalCode-Prefix.pch */,
+				C3B2FC5A1647A08F00E0AC69 /* Default.png */,
+				C3B2FC5C1647A08F00E0AC69 /* Default@2x.png */,
+				C3B2FC5E1647A08F00E0AC69 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B2FC721647A09000E0AC69 /* One-dimensionalCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2FC781647A09000E0AC69 /* One_dimensionalCodeTests.h */,
+				C3B2FC791647A09000E0AC69 /* One_dimensionalCodeTests.m */,
+				C3B2FC731647A09000E0AC69 /* Supporting Files */,
+			);
+			path = "One-dimensionalCodeTests";
+			sourceTree = "<group>";
+		};
+		C3B2FC731647A09000E0AC69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2FC741647A09000E0AC69 /* One-dimensionalCodeTests-Info.plist */,
+				C3B2FC751647A09000E0AC69 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3B2FC431647A08E00E0AC69 /* One-dimensionalCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B2FC7D1647A09000E0AC69 /* Build configuration list for PBXNativeTarget "One-dimensionalCode" */;
+			buildPhases = (
+				C3B2FC401647A08E00E0AC69 /* Sources */,
+				C3B2FC411647A08E00E0AC69 /* Frameworks */,
+				C3B2FC421647A08E00E0AC69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One-dimensionalCode";
+			productName = "One-dimensionalCode";
+			productReference = C3B2FC441647A08E00E0AC69 /* One-dimensionalCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3B2FC6A1647A09000E0AC69 /* One-dimensionalCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B2FC801647A09000E0AC69 /* Build configuration list for PBXNativeTarget "One-dimensionalCodeTests" */;
+			buildPhases = (
+				C3B2FC661647A09000E0AC69 /* Sources */,
+				C3B2FC671647A09000E0AC69 /* Frameworks */,
+				C3B2FC681647A09000E0AC69 /* Resources */,
+				C3B2FC691647A09000E0AC69 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B2FC711647A09000E0AC69 /* PBXTargetDependency */,
+			);
+			name = "One-dimensionalCodeTests";
+			productName = "One-dimensionalCodeTests";
+			productReference = C3B2FC6B1647A09000E0AC69 /* One-dimensionalCodeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B2FC3B1647A08E00E0AC69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = ykse;
+			};
+			buildConfigurationList = C3B2FC3E1647A08E00E0AC69 /* Build configuration list for PBXProject "One-dimensionalCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3B2FC391647A08E00E0AC69;
+			productRefGroup = C3B2FC451647A08E00E0AC69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3B2FC431647A08E00E0AC69 /* One-dimensionalCode */,
+				C3B2FC6A1647A09000E0AC69 /* One-dimensionalCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B2FC421647A08E00E0AC69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B2FC531647A08E00E0AC69 /* InfoPlist.strings in Resources */,
+				C3B2FC5B1647A08F00E0AC69 /* Default.png in Resources */,
+				C3B2FC5D1647A08F00E0AC69 /* Default@2x.png in Resources */,
+				C3B2FC5F1647A08F00E0AC69 /* Default-568h@2x.png in Resources */,
+				C3B2FC621647A08F00E0AC69 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B2FC681647A09000E0AC69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B2FC771647A09000E0AC69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3B2FC691647A09000E0AC69 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B2FC401647A08E00E0AC69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B2FC551647A08E00E0AC69 /* main.m in Sources */,
+				C3B2FC591647A08F00E0AC69 /* AppDelegate.m in Sources */,
+				C3B2FC651647A08F00E0AC69 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B2FC661647A09000E0AC69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B2FC7A1647A09000E0AC69 /* One_dimensionalCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3B2FC711647A09000E0AC69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B2FC431647A08E00E0AC69 /* One-dimensionalCode */;
+			targetProxy = C3B2FC701647A09000E0AC69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3B2FC511647A08E00E0AC69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B2FC521647A08E00E0AC69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3B2FC601647A08F00E0AC69 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B2FC611647A08F00E0AC69 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C3B2FC751647A09000E0AC69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B2FC761647A09000E0AC69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3B2FC7B1647A09000E0AC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3B2FC7C1647A09000E0AC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3B2FC7E1647A09000E0AC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "One-dimensionalCode/One-dimensionalCode-Prefix.pch";
+				INFOPLIST_FILE = "One-dimensionalCode/One-dimensionalCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3B2FC7F1647A09000E0AC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "One-dimensionalCode/One-dimensionalCode-Prefix.pch";
+				INFOPLIST_FILE = "One-dimensionalCode/One-dimensionalCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3B2FC811647A09000E0AC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/One-dimensionalCode.app/One-dimensionalCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "One-dimensionalCode/One-dimensionalCode-Prefix.pch";
+				INFOPLIST_FILE = "One-dimensionalCodeTests/One-dimensionalCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C3B2FC821647A09000E0AC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/One-dimensionalCode.app/One-dimensionalCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "One-dimensionalCode/One-dimensionalCode-Prefix.pch";
+				INFOPLIST_FILE = "One-dimensionalCodeTests/One-dimensionalCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B2FC3E1647A08E00E0AC69 /* Build configuration list for PBXProject "One-dimensionalCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B2FC7B1647A09000E0AC69 /* Debug */,
+				C3B2FC7C1647A09000E0AC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B2FC7D1647A09000E0AC69 /* Build configuration list for PBXNativeTarget "One-dimensionalCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B2FC7E1647A09000E0AC69 /* Debug */,
+				C3B2FC7F1647A09000E0AC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3B2FC801647A09000E0AC69 /* Build configuration list for PBXNativeTarget "One-dimensionalCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B2FC811647A09000E0AC69 /* Debug */,
+				C3B2FC821647A09000E0AC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B2FC3B1647A08E00E0AC69 /* Project object */;
+}
